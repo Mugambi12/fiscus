@@ -208,6 +208,16 @@ function generateStatement() {
   }
 }
 
+// Function to list all users
+function listUsers() {
+  console.log("All Users:");
+  accounts.forEach((account) => {
+    console.log(
+      `- Name: ${account.name},\n  Account Number: ${account.accountNumber},\n  Account Balance: ${account.balance}`
+    );
+  });
+}
+
 // Main function to run the banking system
 function main() {
   let isRunning = true;
@@ -218,7 +228,8 @@ function main() {
     console.log("3. Withdraw");
     console.log("4. Transfer");
     console.log("5. Generate Statement");
-    console.log("6. Exit");
+    console.log("6. List Users");
+    console.log("7. Exit");
 
     const choice = readlineSync.question("Enter your choice: ");
 
@@ -239,6 +250,9 @@ function main() {
         generateStatement();
         break;
       case "6":
+        listUsers();
+        break;
+      case "7":
         isRunning = false;
         console.log("Exiting the Banking System. Goodbye!");
         break;

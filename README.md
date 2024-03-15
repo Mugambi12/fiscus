@@ -1,4 +1,4 @@
-# Simple Banking System with Transaction History
+# Fiscus: Simple Banking System with Transaction History
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mugambi12/fiscus?color=blueviolet)
 ![Number of lines of code](https://img.shields.io/tokei/lines/github/mugambi12/fiscus?color=blueviolet)
@@ -6,9 +6,9 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/mugambi12/fiscus?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mugambi12/fiscus?color=brightgreen)
 
-![Water Management System Demo](./images/dashboard.png)
+![Fiscus Demo](./images/dashboard.png)
 
-This is a simple banking system implemented in JavaScript with Node.js. The system allows users to create accounts, deposit funds, withdraw funds, transfer funds between accounts, and generate account statements with transaction history.
+Fiscus is a simple banking system implemented in JavaScript with Node.js. It provides users with the ability to create accounts, deposit funds, withdraw funds, transfer funds between accounts, list all users, and generate account statements with transaction history using terminal.
 
 ## Features
 
@@ -17,6 +17,14 @@ This is a simple banking system implemented in JavaScript with Node.js. The syst
 - **Withdrawal**: Users can withdraw funds from their accounts, and the transaction history is recorded.
 - **Transfer**: Users can transfer funds between their accounts or to other users' accounts, and the transaction history is recorded for both sender and receiver accounts.
 - **Transaction History**: Users can generate an account statement with a transaction history showing all deposits, withdrawals, and transfers.
+- **List Users**: Users can view a list of all users along with their account details.
+
+## Tech Stack
+
+- **Language**: JavaScript
+- **Framework**: Node.js
+- **Database**: JSON (stored locally)
+- **Dependencies**: `readline-sync` for user input handling
 
 ## Installation
 
@@ -52,6 +60,7 @@ Follow the on-screen instructions to perform various banking operations:
 - Deposit
 - Withdraw
 - Transfer
+- List Users
 - Generate Statement
 - Exit
 
@@ -62,3 +71,5 @@ Contributions are welcome! If you have suggestions for improvements, please open
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
