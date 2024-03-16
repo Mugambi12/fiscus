@@ -31,7 +31,7 @@
   {
     "accountNumber": 472280,
     "name": "jane smith",
-    "balance": 21900,
+    "balance": 6900,
     "transactions": [
       {
         "timestamp": "2024-03-15T10:01:13.636Z",
@@ -57,6 +57,23 @@
         "timestamp": "2024-03-15T10:15:36.945Z",
         "action": "Transfer to 812964",
         "amount": 21500
+      },
+      {
+        "timestamp": "2024-03-16T06:47:25.159Z",
+        "action": "Withdrawal",
+        "amount": 15000
+      }
+    ]
+  },
+  {
+    "accountNumber": 682456,
+    "name": "Mimimi",
+    "balance": 15421,
+    "transactions": [
+      {
+        "timestamp": "2024-03-16T06:45:47.290Z",
+        "action": "Account created",
+        "amount": 15421
       }
     ]
   }

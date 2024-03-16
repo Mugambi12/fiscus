@@ -223,34 +223,34 @@ function main() {
   let isRunning = true;
   while (isRunning) {
     console.log("\nWelcome to the Banking System");
-    console.log("1. Create Account");
-    console.log("2. Deposit");
-    console.log("3. Withdraw");
-    console.log("4. Transfer");
-    console.log("5. Generate Statement");
-    console.log("6. List Users");
-    console.log("7. Exit");
+    console.log("1. List Users");
+    console.log("2. Create Account");
+    console.log("3. Deposit");
+    console.log("4. Withdraw");
+    console.log("5. Transfer");
+    console.log("6. Generate Statement");
+    console.log("7. Exit\n");
 
     const choice = readlineSync.question("Enter your choice: ");
 
     switch (choice) {
       case "1":
-        createAccount();
+        listUsers();
         break;
       case "2":
-        deposit();
+        createAccount();
         break;
       case "3":
-        withdraw();
+        deposit();
         break;
       case "4":
-        transfer();
+        withdraw();
         break;
       case "5":
-        generateStatement();
+        transfer();
         break;
       case "6":
-        listUsers();
+        generateStatement();
         break;
       case "7":
         isRunning = false;
