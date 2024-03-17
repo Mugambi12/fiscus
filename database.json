@@ -14,7 +14,7 @@
   {
     "accountNumber": 812964,
     "name": "john doe",
-    "balance": 21500,
+    "balance": 3940,
     "transactions": [
       {
         "timestamp": "2024-03-15T10:00:50.195Z",
@@ -25,13 +25,18 @@
         "timestamp": "2024-03-15T10:15:36.945Z",
         "action": "Transfer from 472280",
         "amount": 21500
+      },
+      {
+        "timestamp": "2024-03-16T11:45:32.107Z",
+        "action": "Transfer to 472280",
+        "amount": 17560
       }
     ]
   },
   {
     "accountNumber": 472280,
     "name": "jane smith",
-    "balance": 6900,
+    "balance": 24460,
     "transactions": [
       {
         "timestamp": "2024-03-15T10:01:13.636Z",
@@ -62,6 +67,11 @@
         "timestamp": "2024-03-16T06:47:25.159Z",
         "action": "Withdrawal",
         "amount": 15000
+      },
+      {
+        "timestamp": "2024-03-16T11:45:32.107Z",
+        "action": "Transfer from 812964",
+        "amount": 17560
       }
     ]
   },
