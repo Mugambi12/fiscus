@@ -74,17 +74,5 @@
         "amount": 17560
       }
     ]
-  },
-  {
-    "accountNumber": 682456,
-    "name": "Mimimi",
-    "balance": 15421,
-    "transactions": [
-      {
-        "timestamp": "2024-03-16T06:45:47.290Z",
-        "action": "Account created",
-        "amount": 15421
-      }
-    ]
   }
 ]
