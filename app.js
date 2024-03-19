@@ -28,9 +28,24 @@ function generateAccountNumber() {
   return accountNumber;
 }
 
-// Function to get current timestamp
+// Function to get current timestamp in East Africa Time Zone
 function getCurrentTimestamp() {
-  return new Date().toISOString();
+  // Get current date
+  const currentDate = new Date();
+  // Specify the options for formatting
+  const options = {
+    timeZone: "Africa/Nairobi",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    millisecond: "2-digit",
+    hour12: false,
+  };
+  // Return the formatted date string
+  return currentDate.toLocaleString("en-US", options);
 }
 
 // Initialize accounts from the JSON file

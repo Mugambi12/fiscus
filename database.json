@@ -2,12 +2,47 @@
   {
     "accountNumber": 797685,
     "name": "silas mugambi",
-    "balance": 2000,
+    "balance": 1213883,
     "transactions": [
       {
         "timestamp": "2024-03-15T09:59:18.270Z",
         "action": "Account created",
         "amount": 2000
+      },
+      {
+        "timestamp": "2024-03-19T19:57:28.441Z",
+        "action": "Deposit",
+        "amount": 7
+      },
+      {
+        "timestamp": "2024-03-19T19:57:51.921Z",
+        "action": "Deposit",
+        "amount": 2554521
+      },
+      {
+        "timestamp": "2024-03-19T19:58:10.747Z",
+        "action": "Deposit",
+        "amount": 2153
+      },
+      {
+        "timestamp": "2024-03-19T19:58:24.881Z",
+        "action": "Deposit",
+        "amount": 61854
+      },
+      {
+        "timestamp": "03/19/2024, 23:03:07",
+        "action": "Withdrawal",
+        "amount": 50000
+      },
+      {
+        "timestamp": "03/19/2024, 11:05:10 PM",
+        "action": "Withdrawal",
+        "amount": 100000
+      },
+      {
+        "timestamp": "03/19/2024, 11:05:46 PM",
+        "action": "Withdrawal",
+        "amount": 1254652
       }
     ]
   },
