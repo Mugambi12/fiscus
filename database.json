@@ -76,7 +76,7 @@
       {
         "timestamp": "2024-03-15T10:01:13.636Z",
         "action": "Account created",
-        "amount": null
+        "amount": 0
       },
       {
         "timestamp": "2024-03-15T10:01:40.850Z",
