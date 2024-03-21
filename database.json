@@ -2,7 +2,7 @@
   {
     "accountNumber": 797685,
     "name": "silas mugambi",
-    "balance": 1213883,
+    "balance": 1313883,
     "transactions": [
       {
         "timestamp": "2024-03-15T09:59:18.270Z",
@@ -42,7 +42,7 @@
       {
         "timestamp": "03/19/2024, 11:05:46 PM",
         "action": "Withdrawal",
-        "amount": 1254652
+        "amount": 1154652
       }
     ]
   },
